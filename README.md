@@ -1,9 +1,11 @@
 # webpack-test-app
 
 The goal of this is to have webpack produce a source map which:
-1. 
+1. Has no `sourcesContent`.
+1. Has a `sourceRoot`.
+1. `sources` are relative to the `sourceRoot`.
 
-like:
+For example:
 ```json
 {
   "version": 3,
