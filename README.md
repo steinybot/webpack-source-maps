@@ -1,6 +1,6 @@
-# webpack-test-app
+# webpack-source-maps
 
-The goal of this is to have webpack produce a source map which:
+The goal of this is to have webpack produce a source map which is usable across all environments:
 1. Has no `sourcesContent`.
 1. Has a `sourceRoot`.
 1. `sources` are relative to the `sourceRoot`.
